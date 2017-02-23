@@ -15,7 +15,7 @@ body{
 }
 
 .header{
-	background: skyblue;
+	background: #d88c7c;
 	list-style: none;
 	display: flex;
 	flex-flow: row wrap;
@@ -34,7 +34,8 @@ body{
 }
 
 .header li:hover{
-	background: blue;
+	background:  #f2d7d5;
+	color: black;
 }
 
 
@@ -43,7 +44,7 @@ body{
 }
 
 .form{
-	background: skyblue;
+	background: #fadbd8;
 	align-self: center;
 	display: flex;
 	flex-flow: column nowrap;
@@ -65,6 +66,6 @@ body{
 }
 
 .footer{
-	background: skyblue;
+	background: #d88c7c;
 	height: 50px;
 }
