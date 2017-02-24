@@ -1,0 +1,108 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+body {
+  padding: 50px 0 50px 0; /*Keeps the main Section between Header & Footer*/
+  background: #91ffd3;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  padding: 0 20px 0 20px; /*To Keep the 20px gaps from right and left of header*/
+  width: 100%;
+  background: #16b375;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  padding: 0 20px 0 20px;
+  width: 100%;
+  background: #16b375;
+}
+section {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 100px);
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 175px;
+  background: #16b375;
+  border: 2px solid #d04023;
+}
+form input {
+  width: 100px;
+  margin: 5px 0;
+  padding: 7px 20px;
+  border-radius: 7px;
+  color:#fff;
+  background: #0d9259;
+  border: 2px solid #333;
+  text-align: center;
+  /*box-shadow: 0 0 5px white;*/
+  transition: all 0.15s ease-in-out;
+}
+form input:focus {
+  border-color: #333;
+  border-bottom-color: #d04023;
+}
+form input[type="submit"] {
+  width: auto;
+  background: #333;
+  border: 0;
+  /*border-bottom: 5px solid transparent;*/
+  padding: 7px 20px;
+  transition: all 0.15s ease-in-out;
+}
+form input[type="submit"]:hover {
+  background: #333;
+  box-shadow: 0 0 5px #333 inset;
+  border-bottom: 5px solid #d04023;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+li {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d9259;
+  flex-grow: 1;
+  width: 100px;
+  padding: 20px 30px;
+  border-right: 1px solid #91ffd3;
+  color: #fff;
+  transition: background 0.2s ease-in, border-bottom 0.2s cubic-bezier(0,0.5,1,2);
+}
+li:nth-last-of-type(1):hover, li:nth-last-of-type(2):hover {
+  background: #333;
+  cursor: pointer;
+  border-bottom: 5px solid #e05b3f;
+}
+li:nth-of-type(2) {
+  flex-grow: 5;
+  width: auto;
+}
+li:nth-last-of-type(1) {
+  border-right: 0;
+}
