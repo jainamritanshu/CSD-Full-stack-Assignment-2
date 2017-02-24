@@ -1,0 +1,96 @@
+html{
+	display: flex;	
+	min-height: 100%;
+	flex: 1;
+	margin: 0;
+}
+body{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 50px;
+	background-color: #A9A9A9; 	
+}
+
+.header div{
+	
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px;
+}
+.header span {
+	font-size: 20px;
+}
+
+
+.logo{
+	flex-grow: 1;
+	background-color: #808080;
+}
+.name{
+	flex-grow: 3;
+	background-color: #A9A9A9;
+}
+.register{
+	flex-grow: 1;
+	background-color: #778899;
+}
+.login{
+	flex-grow: 1;
+	background-color: #708090;
+}
+.header span{
+	padding: 5px;
+}
+.hello:hover{
+	border:5px solid #333;
+}
+.container{
+	width: 400px;
+	height: 200px;
+	align-self: center;
+	background-color: #fffccc;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.footer{
+	align-self: flex-end;
+	flex-grow: 0;
+	display: flex;
+	bottom: 0%;
+	height: 50px;
+	width: 100%;
+	background-color: green;
+}
+.cnet{
+	align-self: center;
+}
+form{
+	display: flex;
+	margin-left: 20px;
+	width: 200px;
+	font-size: 20px;
+	position: fixed;
+	align-self: center;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+input{
+	font-size: 20px;
+}
