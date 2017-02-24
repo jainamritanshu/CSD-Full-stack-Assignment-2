@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  height: 50px;
+  display: flex;
+}
+.box1 {
+  width: 20px;
+  background: blue;
+  float: left;
+}
+.alignc {
+  margin: auto;
+}
+.logo {
+  flex: 30;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cisco_logo.svg/1280px-Cisco_logo.svg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.name{
+  display: flex;
+  flex: 40;
+  font-size: 12px;
+  background-color: green;
+  color: red;
+}
+.register {
+  display: flex;
+  flex: 15;
+  font-size: 12px;
+  background-color: powderblue;
+  color: crimson;
+}
+.login {
+  display: flex;
+  flex: 15;
+  font-size: 12px;
+  background-color: yellow;
+  color: black;
+}
+.box2 {
+  float: right;
+  width: 20px;
+  background: grey;
+}
+.cbox {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 300px);
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  background: red;
+  display: flex;
+}
+input {
+  width: 196px;
+  padding: 2px;
+  border-width: 0;
+  height: 20px;
+}
+.cform {
+  position: absolute;
+  left: 20px;
+  width: 200px;
+  height: 300px;
+  align-items: center;
+  display: flex;
+}
+.footer {
+  position: absolute;;
+  bottom: 0;
+  background: black;
+  height: 50px;
+  width: 100%;
+}
