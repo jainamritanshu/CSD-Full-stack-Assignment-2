@@ -1,0 +1,171 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.page_wrapper{
+	
+	display: flex;
+	flex-direction: column;
+	
+	height: 100vh;
+
+	background-color: #eeeeee;
+	color: 111111;
+}
+
+.navbar{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 50px;
+
+	background-color: #181818;
+	filter: drop-shadow(0px 0px 5px #000);
+}
+
+.nav_logo{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding-left: 15px;
+	padding-right: 15px;
+
+	color: #f8f8f8;
+	font-family: monospace;
+}
+
+.nav_logo:hover{
+	background-color: #383838;
+}
+
+.nav_name{
+	flex-grow: 1;
+	color: #f8f8f8;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-family: monospace;
+	font-size: 12px;
+}
+
+.nav_name:hover{
+	background-color: #383838;
+}
+
+.nav_buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #181818;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.nav_buttons:hover{
+	background-color: #383838;
+}
+
+.navbutton{
+	text-decoration: none;
+	color: #f8f8f8;
+
+	font-family: monospace;
+	font-size: 12px;
+
+	padding: 7px;
+}
+
+.navbutton:hover{
+	text-decoration: none;
+	background-color: #f8f8f8;
+	padding: 7px;
+	color: #181818;
+}
+
+.navbutton:active{
+	text-decoration: none;
+	background-color: #f8f8f8;
+	color: #181818;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.contents{
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #f8f8f8;
+	flex-wrap: stretch;
+}
+
+.form_container{
+
+	display: flex;
+
+	background-color: #181818;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+
+	padding: 50px;
+}
+
+.form_container:hover{
+	background-color: #383838;
+}
+
+.form_class{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 100px;
+}
+
+.form_class:hover{
+	background-color: #585858;
+}
+
+.foot{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+
+	/*position: fixed;
+	bottom: 0px;*/
+
+	height: 50px;
+	width: 100vw;
+
+	background-color: #181818;
+	color: #f8f8f8;
+
+	filter: drop-shadow(0px 0px 5px #000);
+}
+
+.foot_content_1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.foot_content_1:hover{
+	background-color: #383838;
+}
+
+.foot_message{
+	font-family: 'monospace';
+}
