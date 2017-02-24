@@ -1,0 +1,79 @@
+.header{
+	height: 50px;
+	display: flex;
+	width:200%;
+	background: rgb(174, 222, 167);
+	justify-content:space-between;	
+}
+#register{
+	height: 50px;
+	width:65px;
+			
+}
+#imag{
+	width:50px;
+	margin-left: 20px;
+}
+
+#login{
+width:50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.container{
+	position: relative;
+	top: 20%;
+	left:90%;
+	display:flex;
+	flex-direction: column;
+	justify-content:space-between;
+	
+	width:260px;
+	height: 200px;
+	border-style: solid; 
+	padding: 20px;	
+}
+ .box1{
+    flex:2;
+    order:2;
+   flex-basis: 100px;
+   
+  }
+  
+  .box2{
+    flex:1;
+    order:1;
+    flex-basis: 100px;
+  }
+  
+  .box3{
+    flex:1;
+    order: 3;
+    flex-grow: 1;
+    flex-basis: 100px;
+  }
+.footer{
+background: grey	;
+position: fixed;
+bottom: 0px;
+height: 50px;
+	width:100%;
+}
+
+
+
+#name{
+	margin:auto;
+	font-size:20px;
+}
+
+
+#username{
+	position: relative;
+	left:60px;
+}
+
+body{
+	font-size: 12px
+	width:100%;
