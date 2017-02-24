@@ -1,79 +1,47 @@
-.header{
-	height: 50px;
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{margin:0px 20px;
 	display: flex;
-	width:200%;
-	background: rgb(174, 222, 167);
-	justify-content:space-between;	
-}
-#register{
 	height: 50px;
-	width:65px;
-			
+	background-color: black;
+	flex-wrap: wrap;
+	flex: 1 1 0;
 }
-#imag{
-	width:50px;
-	margin-left: 20px;
+.header ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	list-style-type: none;
 }
-
-#login{
-width:50px;
-	height: 50px;
-	margin-right: 20px;
-}
-
-.container{
-	position: relative;
-	top: 20%;
-	left:90%;
-	display:flex;
-	flex-direction: column;
-	justify-content:space-between;
-	
-	width:260px;
-	height: 200px;
-	border-style: solid; 
-	padding: 20px;	
-}
- .box1{
-    flex:2;
-    order:2;
-   flex-basis: 100px;
-   
-  }
-  
-  .box2{
-    flex:1;
-    order:1;
-    flex-basis: 100px;
-  }
-  
-  .box3{
-    flex:1;
-    order: 3;
-    flex-grow: 1;
-    flex-basis: 100px;
-  }
-.footer{
-background: grey	;
-position: fixed;
-bottom: 0px;
-height: 50px;
-	width:100%;
-}
-
-
-
-#name{
+.header ul li{font-weight: bold;
+	font-family: arial;
+	color:white;
 	margin:auto;
-	font-size:20px;
+	text-transform: uppercase;
 }
-
-
-#username{
-	position: relative;
-	left:60px;
+.form{margin:auto;
+	margin-top:40vh;
+	background-color:#888;
+	width:300px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
-
-body{
-	font-size: 12px
-	width:100%;
+form{width:100px;
+	margin:auto 0px;
+	padding-left:20px;
+	display: flex;
+	flex-direction: column;
+}
+.footer{
+	height: 50px;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	bottom:0px;
+}
