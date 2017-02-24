@@ -1,0 +1,67 @@
+.logo :	{
+	display: flex;
+	border-radius: 10px;
+	border-image: 10px;
+	border-spacing: 1px;
+	border-style: double;
+
+}
+#imag
+{
+		height:50px;
+}
+.container{
+	flex-grow: 1;
+	display: flex;
+	position: absolute;
+	border color: red;
+	border-radius: 5px;
+}
+.form { 
+	top: 40%;
+	right: 40%;
+	left:40%;
+ 	position: fixed;
+	flex-grow: 1;
+	padding-top: auto;
+	border-color: blue;
+	border-style: dotted;
+	border-width: 2px;
+	height: 200px;
+	width: 260px;
+	
+	margin: auto;
+	padding: 20px;
+
+}
+
+.footer{
+	height: 50px;
+	color: black	;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.item1{
+	font-size: 30px;
+	font-weight: 4px;
+	font-color:red
+}
+.item2{
+	
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	background-color: powderblue;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 2px;
+	border-color: powderblue;
+	border-style:dotted; 
+	height: 50px;
+}
+.item0{
+	width: 100px;
+}
+
