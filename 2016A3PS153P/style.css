@@ -44,6 +44,7 @@ form {
   width: 300px;
   height: 175px;
   background: #16b375;
+  border: 2px solid #d04023;
 }
 form input {
   width: 100px;
@@ -52,7 +53,7 @@ form input {
   border-radius: 7px;
   color:#fff;
   background: #0d9259;
-  border: 2px solid #d04023;
+  border: 2px solid #333;
   text-align: center;
   /*box-shadow: 0 0 5px white;*/
   transition: all 0.15s ease-in-out;
@@ -63,7 +64,7 @@ form input:focus {
 }
 form input[type="submit"] {
   width: auto;
-  background: #d04023;
+  background: #333;
   border: 0;
   /*border-bottom: 5px solid transparent;*/
   padding: 7px 20px;
