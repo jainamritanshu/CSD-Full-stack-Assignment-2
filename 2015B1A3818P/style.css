@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font: 12px;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  align-content: center;
+  height: 100vh;
+}
+.header {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+  background-color: #ddd;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+.logo {
+  background-color: #999;
+  order: 1;
+  flex-grow: 1;
+}
+.my-name {
+  background-color: #ccc;
+  order: 2;
+  flex-grow: 2;
+
+
+}
+.register {
+  background-color: #999;
+  order: 3;
+  flex-grow: 1;
+
+}
+.login {
+  background-color: #999;
+  order: 4;
+  flex-grow: 1;
+
+}
+.footer {
+	height: 50px;
+	background: #555;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+}
+
+.main-content {
+  padding-left: 20px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100px;
+}
+input {
+  margin: 20px 20px;
+}
