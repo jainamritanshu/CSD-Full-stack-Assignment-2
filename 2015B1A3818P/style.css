@@ -10,9 +10,10 @@ body {
 }
 .container {
   display: flex;
-  flex-flow: column;
-  justify-content: space-between;
+  flex-direction: column;
+  
   align-content: center;
+  height: 100vh;
 }
 .header {
   padding-left: 20px;
@@ -56,11 +57,16 @@ body {
 	position: fixed;
 	bottom: 0px;
 }
+
 .main-content {
-  align-self: center;
   padding-left: 20px;
+  flex-grow: 1;
   display: flex;
-  flex-flow: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   height: 100px;
+}
+input {
+  margin: 20px 20px;
 }
